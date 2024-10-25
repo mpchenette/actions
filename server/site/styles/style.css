@@ -1,0 +1,36 @@
+html {
+	font-family: "Open Sans", sans-serif;
+	color: #aebac6;
+	background-color: #162607;
+}
+
+header {
+	width: 100%;
+	background-color: #25400C;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	text-align: center;
+	margin: 0;
+	width: 100%;
+}
+
+h2 {
+	text-align: center;
+}
+
+body {
+	text-align: center;
+	margin: 0;
+}
+
+p {
+	text-align: center;
+}
+
+div {
+	text-align: center;
+}
