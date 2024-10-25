@@ -60,5 +60,5 @@ jobs:
   
       - name: Deploy to AKS
         run: |
-          kubectl set image deployment/my-deployment my-container=mcpuacr.azurecr.io/rust-std-web-server:latest
-          kubectl rollout status deployment/my-deployment
+          kubectl apply -f k8s/deployment.yaml
+      # kubectl rollout status deployment/my-deployment
